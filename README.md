@@ -54,8 +54,14 @@ npx jest --config jest.config.cjs tests/counter.test.ts --no-coverage
 ```
 
 ## Initial Idea
+I wanted to build a simple but meaningful example of privacy-preserving computation 
+on the Midnight Network. The counter contract demonstrates the core concept of 
+Midnight's privacy model: anyone can see that the counter changed (public state), 
+but nobody can see by how much it was incremented (private witness). 
 
-[LEAVE PLACEHOLDER — I will fill this in manually]
+This makes it a great starting point for understanding how zero-knowledge proofs 
+can separate "what happened" from "how it happened" — a fundamental building block 
+for private DeFi, voting systems, and confidential business logic on-chain.
 
 ## Screenshots
 
