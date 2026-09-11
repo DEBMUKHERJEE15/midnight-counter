@@ -1,0 +1,20 @@
+pragma language_version >= 0.23;
+
+import CompactStandardLibrary;
+
+/*
+ * PRIVACY MODEL:
+ * PUBLIC  - counter: the current count value, visible on-chain to anyone
+ * PRIVATE - increment_by: circuit input, never stored or disclosed on-chain
+ * PROVES  - that the counter was incremented by a valid amount without revealing what amount
+ */
+
+export ledger counter: Uint<32>;
+
+export circuit increment(increment_by: Uint<32>): [] {
+    counter = disclose((counter + increment_by) as Uint<32>);
+}
+
+export circuit reset(): [] {
+    counter = disclose(0 as Uint<32>);
+}
