@@ -65,4 +65,14 @@ for private DeFi, voting systems, and confidential business logic on-chain.
 
 ## Screenshots
 
-[LEAVE PLACEHOLDER — I will add compile output and contract address screenshots]
+### Compile Output
+<img width="3375" height="897" alt="1000456554" src="https://github.com/user-attachments/assets/9dc538d0-9b00-4fdf-9402-b7785d581dc2" />
+
+
+### Tests Passing
+<img width="3118" height="598" alt="1000456553" src="https://github.com/user-attachments/assets/0ccd600d-aabc-48f8-a6ab-683290550a3c" />
+
+### Contract Deployed
+<img width="2580" height="378" alt="1000456555" src="https://github.com/user-attachments/assets/d0d05b6e-0e1a-401a-9504-866a18684ac6" />
+
+
